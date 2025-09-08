@@ -1,0 +1,10 @@
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/uninstall.dir
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/solvepnp_uninstall.dir
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/camera_info_subscriber.dir
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/test.dir
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/edit_cache.dir
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/rebuild_cache.dir
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/list_install_components.dir
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/install.dir
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/install/local.dir
+/home/ypq/final_ws/build/solvepnp/CMakeFiles/install/strip.dir

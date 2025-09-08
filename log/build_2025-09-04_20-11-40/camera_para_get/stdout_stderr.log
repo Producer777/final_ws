@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_info_publisher[0m
+[100%] Built target camera_info_publisher
+-- Install configuration: ""
+-- Installing: /home/ypq/final_ws/install/camera_para_get/lib/camera_para_get/camera_info_publisher
+-- Set runtime path of "/home/ypq/final_ws/install/camera_para_get/lib/camera_para_get/camera_info_publisher" to ""
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/config
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/config/camera.yaml
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/ament_index/resource_index/package_run_dependencies/camera_para_get
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/ament_index/resource_index/parent_prefix_path/camera_para_get
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/environment/ament_prefix_path.sh
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/environment/ament_prefix_path.dsv
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/environment/path.sh
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/environment/path.dsv
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/local_setup.bash
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/local_setup.sh
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/local_setup.zsh
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/local_setup.dsv
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/package.dsv
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/ament_index/resource_index/packages/camera_para_get
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/cmake/camera_para_getConfig.cmake
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/cmake/camera_para_getConfig-version.cmake
+-- Installing: /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/package.xml

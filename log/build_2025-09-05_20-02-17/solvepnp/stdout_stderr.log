@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_info_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_info_subscriber.dir/src/handle_sub_node.cpp.o[0m
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:[m[K In constructor ‘[01m[KCameraInfoSubscriber::CameraInfoSubscriber()[m[K’:
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkf_[m[K’ was not declared in this scope
+   62 |         [01;31m[Kkf_[m[K = cv::KalmanFilter(8, 4, 0);
+      |         [01;31m[K^~~[m[K
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:77:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+   77 |         kf_.measurementMatrix.at<[01;31m[Kfloat[m[K>(0,0) = 1.0f; // x
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:78:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+   78 |         kf_.measurementMatrix.at<[01;31m[Kfloat[m[K>(1,1) = 1.0f; // y
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:79:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+   79 |         kf_.measurementMatrix.at<[01;31m[Kfloat[m[K>(2,2) = 1.0f; // z
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:80:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+   80 |         kf_.measurementMatrix.at<[01;31m[Kfloat[m[K>(3,3) = 1.0f; // yaw
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:[m[K In member function ‘[01m[Kvoid CameraInfoSubscriber::camera_info_callback(sensor_msgs::msg::CameraInfo_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:164:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kkf_[m[K’ was not declared in this scope
+  164 |                 cv::Mat prediction = [01;31m[Kkf_[m[K.predict();  // 预测一步
+      |                                      [01;31m[K^~~[m[K
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:166:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw[m[K’ was not declared in this scope
+  166 |                 cv::Mat measurement = (cv::Mat_<float>(4,1) << x, y, z, [01;31m[Kyaw[m[K);
+      |                                                                         [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/camera_info_subscriber.dir/build.make:76：CMakeFiles/camera_info_subscriber.dir/src/handle_sub_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/camera_info_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

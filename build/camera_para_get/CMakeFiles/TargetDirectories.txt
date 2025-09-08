@@ -1,0 +1,10 @@
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/uninstall.dir
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/camera_para_get_uninstall.dir
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/camera_info_publisher.dir
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/test.dir
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/edit_cache.dir
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/rebuild_cache.dir
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/list_install_components.dir
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/install.dir
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/install/local.dir
+/home/ypq/final_ws/build/camera_para_get/CMakeFiles/install/strip.dir

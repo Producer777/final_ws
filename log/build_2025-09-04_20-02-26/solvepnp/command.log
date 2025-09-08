@@ -1,0 +1,1 @@
+Invoking command in '/home/ypq/final_ws/build/solvepnp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ypq/final_ws/src/solvepnp -DCMAKE_INSTALL_PREFIX=/home/ypq/final_ws/install/solvepnp

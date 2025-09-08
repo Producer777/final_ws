@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/home/ypq/final_ws/build/solvepnp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ypq/final_ws/build/solvepnp -- -j24 -l24
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target camera_info_subscriber[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_info_subscriber.dir/src/handle_sub_node.cpp.o[0m
+[5.546s] [100%] [32m[1mLinking CXX executable camera_info_subscriber[0m
+[5.858s] [100%] Built target camera_info_subscriber
+[5.866s] Invoked command in '/home/ypq/final_ws/build/solvepnp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ypq/final_ws/build/solvepnp -- -j24 -l24
+[5.868s] Invoking command in '/home/ypq/final_ws/build/solvepnp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ypq/final_ws/build/solvepnp
+[5.875s] -- Install configuration: ""
+[5.876s] -- Installing: /home/ypq/final_ws/install/solvepnp/lib/solvepnp/camera_info_subscriber
+[5.878s] -- Set runtime path of "/home/ypq/final_ws/install/solvepnp/lib/solvepnp/camera_info_subscriber" to ""
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/ament_index/resource_index/package_run_dependencies/solvepnp
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/ament_index/resource_index/parent_prefix_path/solvepnp
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/environment/ament_prefix_path.sh
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/environment/ament_prefix_path.dsv
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/environment/path.sh
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/environment/path.dsv
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/local_setup.bash
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/local_setup.sh
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/local_setup.zsh
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/local_setup.dsv
+[5.879s] -- Installing: /home/ypq/final_ws/install/solvepnp/share/solvepnp/package.dsv
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/ament_index/resource_index/packages/solvepnp
+[5.879s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/cmake/solvepnpConfig.cmake
+[5.880s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/cmake/solvepnpConfig-version.cmake
+[5.880s] -- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/package.xml
+[5.880s] Invoked command in '/home/ypq/final_ws/build/solvepnp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ypq/final_ws/build/solvepnp

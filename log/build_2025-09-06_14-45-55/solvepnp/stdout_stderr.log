@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_info_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_info_subscriber.dir/src/handle_sub_node.cpp.o[0m
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:[m[K In constructor ‘[01m[KCameraInfoSubscriber::CameraInfoSubscriber()[m[K’:
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:70:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcsv_points_[m[K’ was not declared in this scope
+   70 |         [01;31m[Kcsv_points_[m[K = readCSV("/home/ypq/文档/算法组——最终考核/data.csv");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:[m[K In member function ‘[01m[Kvoid CameraInfoSubscriber::process_frame()[m[K’:
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:179:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcsv_points_[m[K’ was not declared in this scope
+  179 |  if (current_frame_index_ >= [01;31m[Kcsv_points_[m[K.size()) return;
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:181:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kcsv_points_[m[K’ was not declared in this scope
+  181 |         const auto& pts = [01;31m[Kcsv_points_[m[K[current_frame_index_++];
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:182:85:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{<expression error>, <expression error>, <expression error>, <expression error>}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<cv::Point_<float> >[m[K’
+  182 |  { pts.pt1, pts.pt2, pts.pt3, pts.pt4 [01;31m[K}[m[K;
+      |                                       [01;31m[K^[m[K
+      |                                       [01;31m[K|[m[K
+      |                                       [01;31m[K<brace-enclosed initializer list>[m[K
+
+gmake[2]: *** [CMakeFiles/camera_info_subscriber.dir/build.make:76：CMakeFiles/camera_info_subscriber.dir/src/handle_sub_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/camera_info_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

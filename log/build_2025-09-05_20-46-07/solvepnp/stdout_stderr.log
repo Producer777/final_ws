@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_info_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_info_subscriber.dir/src/handle_sub_node.cpp.o[0m
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:[m[K In member function ‘[01m[Kvoid CameraInfoSubscriber::camera_info_callback(sensor_msgs::msg::CameraInfo_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:211:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kyaw_pub_[m[K’
+  211 |                 [01;31m[Kyaw_pub_[m[K->publish(yaw_msg);
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ypq/final_ws/src/solvepnp/src/handle_sub_node.cpp:215:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpitch_pub_[m[K’
+  215 |                 [01;31m[Kpitch_pub_[m[K->publish(pitch_msg);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/camera_info_subscriber.dir/build.make:76：CMakeFiles/camera_info_subscriber.dir/src/handle_sub_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/camera_info_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/ypq/final_ws/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ypq/final_ws/build/my_launch -- -j24 -l24
+[0.034s] Invoked command in '/home/ypq/final_ws/build/my_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ypq/final_ws/build/my_launch -- -j24 -l24
+[0.041s] Invoking command in '/home/ypq/final_ws/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ypq/final_ws/build/my_launch
+[0.048s] -- Install configuration: ""
+[0.048s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.048s]   file INSTALL cannot find "/home/ypq/final_ws/src/my_launch/launch": No such
+[0.048s]   file or directory.
+[0.048s] 
+[0.048s] [0m
+[0.049s] Invoked command in '/home/ypq/final_ws/build/my_launch' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ypq/final_ws/build/my_launch
