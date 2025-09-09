@@ -1,3 +1,6 @@
+/home/ypq/final_ws/install/my_launch/share/my_launch/config/camera.yaml
+/home/ypq/final_ws/install/my_launch/share/my_launch/config/timer.yaml
+/home/ypq/final_ws/install/my_launch/share/my_launch/config/kf_para.yaml
 /home/ypq/final_ws/install/my_launch/share/my_launch/launch/launch.py
 /home/ypq/final_ws/install/my_launch/share/ament_index/resource_index/package_run_dependencies/my_launch
 /home/ypq/final_ws/install/my_launch/share/ament_index/resource_index/parent_prefix_path/my_launch

@@ -10,7 +10,6 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(ament_index_cpp REQUIRED)
-find_package(yaml-cpp REQUIRED)
 
 
 if(BUILD_TESTING)
@@ -26,16 +25,11 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(camera_info_publisher src/camera_tp_node.cpp)
-ament_target_dependencies(camera_info_publisher rclcpp sensor_msgs ament_index_cpp yaml-cpp)
-target_link_libraries(camera_info_publisher
-  yaml-cpp
-)
+ament_target_dependencies(camera_info_publisher rclcpp sensor_msgs ament_index_cpp)
+target_link_libraries(camera_info_publisher)
 
 install(TARGETS
   camera_info_publisher
   DESTINATION lib/${PROJECT_NAME})
-  
-install(DIRECTORY config/
-  DESTINATION share/${PROJECT_NAME}/config)
 
 ament_package()

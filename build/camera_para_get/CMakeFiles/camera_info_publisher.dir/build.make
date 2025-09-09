@@ -98,7 +98,6 @@ camera_info_publisher: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fa
 camera_info_publisher: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 camera_info_publisher: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 camera_info_publisher: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-camera_info_publisher: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 camera_info_publisher: /opt/ros/humble/lib/liblibstatistics_collector.so
 camera_info_publisher: /opt/ros/humble/lib/librcl.so
 camera_info_publisher: /opt/ros/humble/lib/librmw_implementation.so

@@ -1,0 +1,18 @@
+[100%] Built target camera_info_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/lib/solvepnp/camera_info_subscriber
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/ament_index/resource_index/package_run_dependencies/solvepnp
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/ament_index/resource_index/parent_prefix_path/solvepnp
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/environment/path.sh
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/environment/path.dsv
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/local_setup.bash
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/local_setup.sh
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/local_setup.zsh
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/local_setup.dsv
+-- Installing: /home/ypq/final_ws/install/solvepnp/share/solvepnp/package.dsv
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/ament_index/resource_index/packages/solvepnp
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/cmake/solvepnpConfig.cmake
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/cmake/solvepnpConfig-version.cmake
+-- Up-to-date: /home/ypq/final_ws/install/solvepnp/share/solvepnp/package.xml

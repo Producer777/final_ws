@@ -104,7 +104,7 @@ public:
         // 声明参数（构造函数里）
         this->declare_parameter<std::vector<double>>(
             "kf_process_noise",
-            std::vector<double>{1e-4,1e-4,1e-4,1e-4,1e-4,1e-4,1e-4,1e-4});
+            std::vector<double>{0.0001,0.0001,0.0001,0.0001,0.0001,0.0001,0.0001,0.0001});
         this->declare_parameter<std::vector<double>>(
             "kf_measurement_noise",
             std::vector<double>{0.01,0.01,0.01,0.01});
@@ -136,9 +136,11 @@ public:
         kf_.errorCovPost.at<float>(6,6) = 1000.0f;
         kf_.errorCovPost.at<float>(7,7) = 1000.0f;
 
+        this->declare_parameter<int>("time",200);
+        int t=this->get_parameter("time").as_int(); 
         //定时器
         timer_ = this->create_wall_timer(
-        std::chrono::milliseconds(500),
+        std::chrono::milliseconds(t),
         std::bind(&CameraInfoSubscriber::process_frame, this));
     }
 

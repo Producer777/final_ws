@@ -250,6 +250,33 @@ pitch_pub_->publish(pitch_msg);
 parameters=[{'kf_process_noise': [1e-4,1e-4,1e-4,1e-4,1e-4,1e-4,1e-4,1e-4],#Q
                 'kf_measurement_noise': [0.01,0.01,0.01,0.01]}]#R
 ```
+图像分析：
+![alt text](image.png)
+默认参数下拟合曲线
+![alt text](image-1.png)
+Q均改为1e-3
+![alt text](image-2.png)
+Q均改为1e-2
+![alt text](image-3.png)
+Q均改为1e-5
+![alt text](image-4.png)
+R均改为1e-3
+![alt text](image-6.png)
+R均改为1e-4
+![alt text](image-8.png)
+q中速度均调为1e-2
+![alt text](image-9.png)
+r都调为1.0
+
+结论：
+调整速度参数和位移参数感觉差异不大，另外调大q调小r感觉等效，这时图像会变更陡，与原测量曲线更加贴合；反之亦然，此时图像会平滑，但明显滞后于测量曲线
+
+原因：
+1.对于速度和位移参数调整相似效果，由于速度与位移耦合，调整速度会直接影响位移，表现出来的效果就相似
+2.对于q和r参数调整相似效果，由
+$$K_n=P_{n,n−1}H^T(HP_{n,n−1}H^T+R_n)^{−1}$$
+可得当R减小，K就会变大，由于K越大就越相信测量值，图像表现也就越陡；对于Q而言，P受Q影响，当Q增大，P增大，仅从一维考虑分子分母同时增大，那么K增大，与R减小效果类似，反之同理
+
 # 数学原理
 **求解PNP：**
 $$

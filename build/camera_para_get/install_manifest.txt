@@ -1,5 +1,4 @@
 /home/ypq/final_ws/install/camera_para_get/lib/camera_para_get/camera_info_publisher
-/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/config/camera.yaml
 /home/ypq/final_ws/install/camera_para_get/share/ament_index/resource_index/package_run_dependencies/camera_para_get
 /home/ypq/final_ws/install/camera_para_get/share/ament_index/resource_index/parent_prefix_path/camera_para_get
 /home/ypq/final_ws/install/camera_para_get/share/camera_para_get/environment/ament_prefix_path.sh
