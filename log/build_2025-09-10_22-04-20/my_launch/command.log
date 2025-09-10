@@ -1,0 +1,6 @@
+Invoking command in '/home/ypq/final_ws/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ypq/final_ws/src/my_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ypq/final_ws/install/my_launch
+Invoked command in '/home/ypq/final_ws/build/my_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ypq/final_ws/src/my_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ypq/final_ws/install/my_launch
+Invoking command in '/home/ypq/final_ws/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ypq/final_ws/build/my_launch -- -j24 -l24
+Invoked command in '/home/ypq/final_ws/build/my_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ypq/final_ws/build/my_launch -- -j24 -l24
+Invoking command in '/home/ypq/final_ws/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ypq/final_ws/build/my_launch
+Invoked command in '/home/ypq/final_ws/build/my_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ypq/final_ws/build/my_launch

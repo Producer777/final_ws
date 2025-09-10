@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-947b50413d7d98994cbf.json",
+					"jsonFile" : "directory-.-47d076d09891324f42d1.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -17,7 +17,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -29,11 +30,12 @@
 					[
 						0
 					],
-					"name" : "my_launch",
+					"name" : "camera_para_get",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -41,15 +43,22 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "my_launch_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-my_launch_uninstall-7018b7dc548527f3183e.json",
-					"name" : "my_launch_uninstall",
+					"id" : "camera_info_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_info_publisher-1b59e382b8af2831d595.json",
+					"name" : "camera_info_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_para_get_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_para_get_uninstall-c563da296debdef20bbf.json",
+					"name" : "camera_para_get_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-b20c8498fe3590de5fdf.json",
+					"jsonFile" : "target-uninstall-605e8be8312eab1496de.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				}
@@ -59,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ypq/final_ws/build/my_launch",
-		"source" : "/home/ypq/final_ws/src/my_launch"
+		"build" : "/home/ypq/final_ws/build/camera_para_get",
+		"source" : "/home/ypq/final_ws/src/camera_para_get"
 	},
 	"version" : 
 	{

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-be4e2008c8f1d0a0abd2.json",
+					"jsonFile" : "directory-.-6bc1c488077f5933f860.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -30,7 +30,7 @@
 					[
 						0
 					],
-					"name" : "camera_para_get",
+					"name" : "solvepnp",
 					"targetIndexes" : 
 					[
 						0,
@@ -43,22 +43,22 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "camera_info_publisher::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-camera_info_publisher-e420a9166390e505001b.json",
-					"name" : "camera_info_publisher",
+					"id" : "camera_info_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_info_subscriber-f956c25ae73524a8571a.json",
+					"name" : "camera_info_subscriber",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "camera_para_get_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-camera_para_get_uninstall-c563da296debdef20bbf.json",
-					"name" : "camera_para_get_uninstall",
+					"id" : "solvepnp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solvepnp_uninstall-1a208bf0c3f5bb3bb690.json",
+					"name" : "solvepnp_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-605e8be8312eab1496de.json",
+					"jsonFile" : "target-uninstall-1531f9744e8f0d46ae12.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				}
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ypq/final_ws/build/camera_para_get",
-		"source" : "/home/ypq/final_ws/src/camera_para_get"
+		"build" : "/home/ypq/final_ws/build/solvepnp",
+		"source" : "/home/ypq/final_ws/src/solvepnp"
 	},
 	"version" : 
 	{

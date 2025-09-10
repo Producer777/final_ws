@@ -1,2 +1,1 @@
-source;share/solvepnp/environment/ament_prefix_path.sh
-source;share/solvepnp/environment/path.sh
+/home/ypq/final_ws/build/solvepnp/ament_cmake_environment_hooks/local_setup.dsv

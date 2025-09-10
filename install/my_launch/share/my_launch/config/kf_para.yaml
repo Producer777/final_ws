@@ -1,4 +1,1 @@
-/**:
-   ros__parameters:
-    kf_process_noise: [0.0001,0.0001,0.0001,0.0001,0.0001,0.0001,0.0001,0.0001]
-    kf_measurement_noise: [0.01,0.01,0.01,0.01]
+/home/ypq/final_ws/src/my_launch/config/kf_para.yaml

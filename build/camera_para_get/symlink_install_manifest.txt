@@ -1,0 +1,16 @@
+/home/ypq/final_ws/install/camera_para_get/lib/camera_para_get/camera_info_publisher
+/home/ypq/final_ws/install/camera_para_get/share/ament_index/resource_index/package_run_dependencies/camera_para_get
+/home/ypq/final_ws/install/camera_para_get/share/ament_index/resource_index/parent_prefix_path/camera_para_get
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/environment/ament_prefix_path.sh
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/environment/ament_prefix_path.dsv
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/environment/path.sh
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/environment/path.dsv
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/local_setup.bash
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/local_setup.sh
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/local_setup.zsh
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/local_setup.dsv
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/package.dsv
+/home/ypq/final_ws/install/camera_para_get/share/ament_index/resource_index/packages/camera_para_get
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/cmake/camera_para_getConfig.cmake
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/cmake/camera_para_getConfig-version.cmake
+/home/ypq/final_ws/install/camera_para_get/share/camera_para_get/package.xml

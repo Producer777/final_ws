@@ -1,0 +1,31 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ypq/final_ws/build/my_launch
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/config/camera.yaml
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/config/kf_para.yaml
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/config/timer.yaml
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/launch/launch.py
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/ament_index/resource_index/package_run_dependencies/my_launch
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/ament_index/resource_index/parent_prefix_path/my_launch
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/environment/ament_prefix_path.sh
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/environment/path.sh
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/environment/path.dsv
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/local_setup.bash
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/local_setup.sh
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/local_setup.zsh
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/local_setup.dsv
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/package.dsv
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/ament_index/resource_index/packages/my_launch
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/cmake/my_launchConfig.cmake
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/cmake/my_launchConfig-version.cmake
+-- Symlinking: /home/ypq/final_ws/install/my_launch/share/my_launch/package.xml
